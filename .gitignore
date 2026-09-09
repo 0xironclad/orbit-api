@@ -1,0 +1,34 @@
+# Compiled binaries
+/bin/
+/api
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test output and coverage
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Local development tools
+.tmp/
+tmp/
+.air.toml
+
+# Go workspaces
+go.work
+go.work.sum
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
