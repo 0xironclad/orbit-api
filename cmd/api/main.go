@@ -6,10 +6,10 @@ func main() {
 	config := config{
 		addr: ":8080",
 	}
-	
+
 	app := &application{
 		config: config,
 	}
-
-	log.Fatal(app.run())
+	mux := app.mount()
+	log.Fatal(app.run(mux))
 }
