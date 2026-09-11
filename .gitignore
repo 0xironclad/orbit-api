@@ -17,7 +17,7 @@ coverage.html
 .env
 .env.*
 !.env.example
-
+.envrc
 # Local development tools
 .tmp/
 tmp/
